@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/*    font-family: 'Roboto', sans-serif;    */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+/*    font-family: 'Fredoka One', cursive;   */
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300;400;500;600;700&display=swap');
+/*    font-family: 'Hind Madurai', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1160px;
+    margin: auto;
+}
+
+header{
+    background: rgba(242, 206, 218,0.3);
+}
+header .container{
+    padding-bottom: 213px;
+    background-image: url(images/header_icecream.png);
+    background-repeat: no-repeat;
+    background-position: 110% 75%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 196px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #150101;
+    opacity: 0.6;
+    margin: 0 20px;
+}
+nav ul li a:hover{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    color: #D23166;
+}
+.btn{
+    background: #D23166;
+    border-radius: 5px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #FAFAFA;
+    padding: 14px 50px;
+    border: none;
+    width: 165px;
+    height: 49px;
+    cursor: pointer;
+}
+header .hedinfo{
+    width: 665px;
+}
+header .hedinfo h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+    color: #0F0101;
+}
+header .hedinfo h1{
+    font-family: 'Fredoka One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 57.33px;
+    line-height: 120.5%;
+    color: #0F0101;
+    opacity: 0.9;
+    margin-top: 6px;
+    margin-bottom: 35px;
+}
+header .hedinfo h1 span{
+    color: #D23166;
+}
+header .hedinfo p{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0F0101;
+    opacity: 0.6;
+    margin-bottom: 50px;
+}
+
+.advantages .container{
+    height: 410px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.advantages .box{
+    width: 250px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 26px;
+}
+.advantages .box:hover{
+    background: #FFFFFF;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.03);
+    border-radius: 7px;
+}
+.advantages .box h4{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    margin-top: 25px;
+    margin-bottom: 9px;
+}
+.advantages .box p{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.brownsugar {
+    background: #F8EDF0;
+    margin-bottom: 130px;
+}
+.brownsugar .container{
+    background-image: url(images/brownsugarBG.png);
+    background-repeat: no-repeat;
+    background-position: 100% 50%;
+}
+.brownsugar .info {
+    width: 442px;
+    padding: 141px 0 144px;
+}
+.brownsugar .info h2{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 49px;
+    color: #150101;
+}
+.brownsugar .info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #150101;
+    opacity: 0.6;
+    margin-top: 16px;
+    margin-bottom: 35px;
+}
+.brownsugar .info button{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0;
+}
+
+
+
+.ourProduct h1 {
+    text-align: center;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 44.2px;
+    line-height: 61px;
+    color: #150101;
+    margin-bottom: 62px;
+}
+.ourProduct .nav{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.ourProduct .nav ul{
+    display: flex;
+}
+.ourProduct .nav ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    opacity: 0.6;
+    position: relative;
+    margin: 0 20px;
+    transition: .3s;
+}
+.ourProduct .nav ul li a:hover{
+    opacity: 1;
+}
+.ourProduct .nav ul li a::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 3px;
+    background-color: #D64374;
+    left: 0;
+    bottom: 0;
+    transition: .3s;
+}
+.ourProduct .nav ul li a:hover::after{
+    width: 100%;
+}
+
+.ourProduct .product{
+    display: flex;
+    align-items: center;
+}
+.ourProduct .product .info{
+    width: 454px;
+    margin-left: 85px;
+}
+.ourProduct .product .info h2{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+.ourProduct .product .info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 11px;
+    margin-bottom: 33px;
+}
+.ourProduct .product .info h3{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.ourProduct .product .info h3 span{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+}
+
+.ourProduct .revproduct {
+    display: flex;
+    align-items: center;
+    margin: 35px 0;
+}
+.ourProduct .revproduct .info{
+    width: 454px;
+    margin-right: 85px;
+    text-align: right;
+}
+.ourProduct .revproduct .info h2{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+}
+.ourProduct .revproduct .info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    opacity: 0.7;
+    margin-top: 11px;
+    margin-bottom: 33px;
+}
+.ourProduct .revproduct .info h3{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 36px;
+    color: #000000;
+    margin-bottom: 16px;
+}
+.ourProduct .revproduct .info h3 span{
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    text-decoration-line: line-through;
+    color: #000000;
+    opacity: 0.7;
+}
+.ourProduct .com{
+    background-image: url(images/comments.png);
+    background-repeat: no-repeat;
+    background-position: 0% 50%;
+    margin-top: 112px 0 150px;
+}
+
+.app {
+    background-color: #F8EDF0;
+    position: relative;
+}
+.app .container{
+    position: relative;
+}
+.app .view{
+    position: absolute;
+    transform: translateY(10%);
+}
+.app .info{
+    width: 630px;
+    margin-left: 35%;
+    padding-top: 90px;
+    padding-bottom: 150px;
+    margin-bottom: 150px;
+}
+.app .info h1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    color: #000000;
+}
+.app .info p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.01em;
+    color: #0F0101;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.app .info .three .one{
+    display: flex;
+    align-items: center;
+}
+.app .info .three .one img{
+    margin-right: 10px;
+}
+.app .info .three .one:nth-child(2){
+    margin: 17px 0;
+}
+.app .info .platform{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    transform: translateX(-10px);
+}
+
+.question {
+    text-align: center;
+}
+.question h1 {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 30px;
+}
+.question input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #0F0000;
+    opacity: 0.6;
+    padding: 30px;
+    background: #FAFAFA;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 600px;
+    margin-bottom: 150px;
+}
+.question button{
+    width: 134px;
+    height: 74px;
+    background: #D64374;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transform: translateX(-10px);
+}
+
+
+footer{
+    background-color: black;
+    padding-bottom: 105px;
+}
+footer .container{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+footer .first {
+    width: 207px;
+    padding-top: 90px;
+}
+footer .first p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.7;
+    margin-top: 9px;
+    margin-bottom: 25px;
+}
+footer .first h6{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    margin-bottom: 8px;
+}
+
+footer .second {
+    padding-top: 153px;
+    margin-left: 37px;
+}
+footer .second ul li a {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.7;
+    transition: .3s;
+}
+footer .second ul li a:hover{
+    opacity: 1;
+}
+footer .third {
+    margin-left: 132px;
+}
+
+footer .last{
+    padding-top: 136px;
+    margin-left: 150px;
+}
+footer .last h3{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+footer .last .footinp{
+    display: flex;
+    align-items: center;
+}
+footer .last .footinp input{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(255, 255, 255, 0.5);
+    border: 2px solid rgba(214, 67, 116, 0.5);
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px 32px;
+    outline: none;
+    margin-bottom: 15px;
+    margin-top: 13px;
+}
+footer .last .footinp button{
+    background: #D23166;
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    padding: 18px;
+    transform: translateX(-7px);
+}
